@@ -11,7 +11,7 @@ const Footer = () => {
           © 2023 Till Jehle<a href="/" className="hover:underline"></a>
         </div>
         <div className="flex flex-row items-center justify-center space-x-2 mb-1">
-          <p className="text-white">Kontakt:</p>
+          <p className="text-white">Kontakt: tilljehle.dev@outlook.com</p>
 
           <a href="mailto:till.jehle@gmail.com">
           
