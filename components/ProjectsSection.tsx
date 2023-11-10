@@ -10,14 +10,14 @@ const projects = [
     description:
       "In Unreal Engine entdeckte ich meine Leidenschaft für programmierung und IT. Ich erstellte meine ersten simplen Spiele und designte Landschaften und Szenen mithilfe von Fotorealistischen Assets. Bild: www.unrealengine.com/en-US",
     image: "/UE.webp",
-    link: "/yoyo.tsx",
+    link: "https://www.unrealengine.com/en-US",
   },
   {
     name: "Websites",
     description:
       "Dies ist meine erste mit NextJs und TailwindCss gemachte Webseite. Davor nutzte ich für drei Webseiten Wordpress und für eine Html und Css.",
     image: "/Web.png",
-    link: "https://katorfamilyphotos.com/",
+    link: "https://final2-khaki.vercel.app/",
   },
 ]
 
