@@ -13,7 +13,7 @@ const projects = [
     link: "/yoyo.tsx",
   },
   {
-    name: "Websites",
+    name: "Websitess",
     description:
       "Dies ist meine erste mit NextJs und TailwindCss gemachte Webseite. Davor nutzte ich für drei Webseiten Wordpress und für eine Html und Css.",
     image: "/Web.png",
