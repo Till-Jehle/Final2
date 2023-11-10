@@ -28,7 +28,7 @@ const HeroSection = () => {
           </p>
           <Link
             to="projects"
-            className="text-white font-semibold px-6 py-3 bg-neutral-600 rounded shadow brightness-90 transition duration-500 shadow-md shadow-green-400"
+            className="text-white font-semibold px-6 py-3 bg-neutral-600 rounded brightness-90 transition duration-500 shadow-md shadow-green-400"
             activeClass="active"
             spy={true}
             smooth={true}
