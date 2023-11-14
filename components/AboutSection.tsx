@@ -46,6 +46,20 @@ const AboutSection = () => {
             </p>
           </div>
           <div className="text-center md:w-1/2 md:text-left">
+            <h1 className="text-2xl font-bold mb-6">Programmiersprachen</h1>
+            <div className="flex flex-wrap flex-row justify-center z-10 md:justify-start">
+              {skills.map((item, idx) => {
+                return (
+                  <p
+                    key={idx}
+                    className="bg-neutral-600 px-4 py-2 mr-2 mt-2 rounded font-semibold text-white shadow-6xl shadow-green-400"
+                  >
+                    {item.skill}
+                  </p>
+                )
+              })}
+            </div>
+
             <h1 className="text-2xl font-bold mb-6">Meine Skills</h1>
             <div className="flex flex-wrap flex-row justify-center z-10 md:justify-start">
               {skills.map((item, idx) => {
@@ -59,6 +73,7 @@ const AboutSection = () => {
                 )
               })}
             </div>
+
           </div>
         </div>
       </div>
