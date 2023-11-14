@@ -60,7 +60,7 @@ const AboutSection = () => {
               })}
             </div>
 
-            <h1 className="text-2xl font-bold mb-6 mt-6">Meine Skills</h1>
+            <h1 className="text-2xl font-bold mb-6 pt-6">Meine Skills</h1>
             <div className="flex flex-wrap flex-row justify-center z-10 md:justify-start">
               {skills.map((item, idx) => {
                 return (
