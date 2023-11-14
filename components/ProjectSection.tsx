@@ -66,6 +66,10 @@ const ProjectsSection = () => {
             </div>
           )
         })}
+
+        <div className="pt-6">
+          <h1 className="my-10 text-center font-bold text-4xl">Das Portfolio ist noch nicht Fertig und wird noch weiter ausgebaut</h1>
+        </div>
         
       </div>
     </section>
