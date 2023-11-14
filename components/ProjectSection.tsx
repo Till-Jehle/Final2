@@ -17,7 +17,7 @@ const projects = [
     description:
       "Dies ist meine erste mit NextJs und TailwindCss gemachte Webseite. Davor nutzte ich für drei Webseiten Wordpress und für eine Html und Css.",
     image: "/Web.png",
-    link: "https://final2-khaki.vercel.app/",
+    link: "https://tilljehle.vercel.app/",
   },
 ]
 
