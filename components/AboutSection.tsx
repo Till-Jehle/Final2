@@ -1,15 +1,17 @@
 import React from "react"
 import Image from "next/image"
 
-const skills = [
+const languages = [
   { skill: "HTML" },
   { skill: "CSS" },
-  { skill: "JavaScript" },
+  { skill: "JavaScript" }
+]
+
+const skills = [
   { skill: "Design" },
   { skill: "Perfektionismus" },
   { skill: "Kreativ" },
   { skill: "Motiviert" },
-  { skill: "Tailwind CSS"},
 ]
 
 const AboutSection = () => {
@@ -48,7 +50,7 @@ const AboutSection = () => {
           <div className="text-center md:w-1/2 md:text-left">
             <h1 className="text-2xl font-bold mb-6">Programmiersprachen</h1>
             <div className="flex flex-wrap flex-row justify-center z-10 md:justify-start">
-              {skills.map((item, idx) => {
+              {languages.map((item, idx) => {
                 return (
                   <p
                     key={idx}
