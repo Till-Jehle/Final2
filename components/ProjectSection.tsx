@@ -24,7 +24,7 @@ const projects = [
 const ProjectsSection = () => {
   return (
     <section id="projects" className="p-8">
-      <h1 className="my-10 text-center font-bold text-4xl">
+      <h1 className="my-10 text-center font-bold text-4xl text-white">
         Projekte
         <hr className="w-6 h-1 mx-auto my-4 bg-green-400 border-0 rounded"></hr>
       </h1>
@@ -47,7 +47,7 @@ const ProjectsSection = () => {
                     </Link>
                   </div>
                   <div className="mt-8 md:w-1/2">
-                    <h1 className="text-4xl font-bold mb-6">{project.name}</h1>
+                    <h1 className="text-4xl font-bold mb-6 text.white">{project.name}</h1>
                     <p className="text-xl leading-7 mb-4 text-neutral-600 dark:text-neutral-400">
                       {project.description}
                     </p>
@@ -58,7 +58,7 @@ const ProjectsSection = () => {
                           className="hover:-translate-y-1 transition-transform cursor-pointer"
                         />
                       </Link>
-                      <p className="">Weiteres</p>
+                      <p className="text-white">Weiteres</p>
                     </div>
                   </div>
                 </div>
@@ -68,7 +68,7 @@ const ProjectsSection = () => {
         })}
 
         <div className="pt-6">
-          <h1 className="my-10 text-center font-bold text-2xl underline decoration-green-400">Das Portfolio ist noch nicht Fertig und wird noch weiter ausgebaut</h1>
+          <h1 className="my-10 text-center font-bold text-2xl underline decoration-green-400 text-white">Das Portfolio ist noch nicht Fertig und wird noch weiter ausgebaut</h1>
         </div>
         
       </div>
