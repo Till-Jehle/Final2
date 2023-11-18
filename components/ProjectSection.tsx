@@ -68,7 +68,7 @@ const ProjectsSection = () => {
         })}
 
         <div className="pt-6">
-          <h1 className="my-10 text-center font-bold text-2xl underline decoration-green-400 text-white">Das Portfolio ist noch nicht Fertig und wird noch weiter ausgebaut</h1>
+          <h1 className="my-10 text-center font-bold text-2xl underline decoration-green-400 text-white">Das Portfolio ist noch nicht fertig und wird noch weiter ausgebaut</h1>
         </div>
         
       </div>
