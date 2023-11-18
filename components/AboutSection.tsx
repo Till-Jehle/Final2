@@ -18,12 +18,12 @@ const AboutSection = () => {
   return (
     <section id="about">
       <div className="my-12 pb-12 md:pt-16 md:pb-48">
-        <h1 className="text-center font-bold text-4xl">
+        <h1 className="text-center font-bold text-4xl text-white">
           Über Mich
           <hr className="w-6 h-1 mx-auto my-4 bg-green-400 border-0 rounded"></hr>
         </h1>
 
-        <div className="flex flex-col space-y-10 items-stretch justify-center align-top px-6 md:space-x-10 md:space-y-0 md:p-4 md:flex-row md:text-left">
+        <div className="flex flex-col space-y-10 items-stretch justify-center align-top px-6 text-white md:space-x-10 md:space-y-0 md:p-4 md:flex-row md:text-left">
           <div className="md:w-1/2 ">
             <p>
               Hi, mein name ist Till Jehhle und mein Ziel ist Web-developer
@@ -62,7 +62,7 @@ const AboutSection = () => {
               })}
             </div>
 
-            <h1 className="text-2xl font-bold mb-6 pt-6">Meine Skills</h1>
+            <h1 className="text-2xl text-white font-bold mb-6 pt-6">Meine Skills</h1>
             <div className="flex flex-wrap flex-row justify-center z-10 md:justify-start">
               {skills.map((item, idx) => {
                 return (
