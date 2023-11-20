@@ -26,25 +26,22 @@ const AboutSection = () => {
         <div className="flex flex-col space-y-10 items-stretch justify-center align-top px-6 text-white md:space-x-10 md:space-y-0 md:p-4 md:flex-row md:text-left">
           <div className="md:w-1/2 ">
             <p>
-              Hi, mein name ist Till Jehhle und mein Ziel ist Web-developer
-              zu werden.
+              Hi, mein name ist Till Jehhle und mein Ziel ist es einen Job in der IT-Branche zu bekommen. 
             </p>
             <br />
             <p>
               Ich bin 15 Jahre alt, in der 10. Klasse und mache dieses Jahr meinen Realschulabschluss.
-              Meine interesse an Web-Development habe ich letztes Jahr gefunden. Davor habe ich versucht meine ersten Videospiele
-              mit der Unreal Engine zu programieren. Angefangen mich mit Programiersprachen und Technik zu befassen
-              habe ich im Jahr 2020. 
+              Meine interesse an Programmierung habe ich vor einem Jahr entdeckt. Davor habe ich versucht meine ersten Videospiele
+              mit der Unreal Engine zu programmieren. Die Interesse im Bereich IT habe ich aber schon seit 3 Jahren.
             </p>
             <br />
             <p>
-              Meine Hobbys außer programieren sind teilweise sehr unterschiedlich. Ich zeichne öfters an meinem Grafiktablet,
-              fotografiere und filme sehr gerne mit meinem Handy, mache sehr viel sport und Boxe ab und zu. 
+              Meine Hobbys außer programmieren sind teilweise sehr unterschiedlich. Ich zeichne, höre sehr viele Podcasts und mache sehr viel Sport.
             </p>
             <br />
             <p>
-             Ich bin motiviert und versuche mich immer wieder mich zu verbessern, meine Stärken in der Schule sind: Mathe, Englisch,
-             Physik und Sport.
+             Ich bin stehts motiviert und versuche mich immer wieder zu verbessern, meine Stärken in der Schule sind: Mathe, Englisch und
+             Physik.
             </p>
           </div>
           <div className="text-center md:w-1/2 md:text-left">
