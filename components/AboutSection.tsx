@@ -26,7 +26,7 @@ const AboutSection = () => {
         <div className="flex flex-col space-y-10 items-stretch justify-center align-top px-6 text-white md:space-x-10 md:space-y-0 md:p-4 md:flex-row md:text-left">
           <div className="md:w-1/2 ">
             <p>
-              Hi, mein name ist Till Jehhle und mein Ziel ist es einen Job in der IT-Branche zu bekommen. 
+              Hi, mein name ist Till Jehle und mein Ziel ist es einen Job in der IT-Branche zu bekommen. 
             </p>
             <br />
             <p>
