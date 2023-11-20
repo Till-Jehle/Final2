@@ -9,7 +9,6 @@ const languages = [
 
 const skills = [
   { skill: "Design" },
-  { skill: "Perfektionismus" },
   { skill: "Kreativ" },
   { skill: "Motiviert" },
 ]
