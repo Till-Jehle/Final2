@@ -22,9 +22,9 @@ const HeroSection = () => {
           <p className="text-lg text-white mt-4 mb-6 md:text-2xl">
             mein Ziel ist es {" "}
             <span className="font-semibold text-green-400">
-              Web-Developer{" "}
+              Fachinformatiker{" "}
             </span>
-            zu werden und meine coding und Web-Dev Skills auszubauen.
+            zu werden und meine coding Skills auszubauen.
           </p>
           <Link
             to="projects"
